@@ -69,13 +69,46 @@
             <td>Gender</td>
          </tr>
       </table>
-     <form action="">
-      <div>
-      Name: <input type="text" name="my_name">
-      </div>
-      <div>
-      Password: <input type="password" name="my_password">
-      </div>
-    </form> 
+      <form action="">
+         <div>
+            <label for="name">Name</label>
+            <input type="text" name="my_name" id="name">
+         </div>
+         <div>
+            Password: <input type="password" name="my_password">
+         </div>
+         </div>
+         <div>
+            Date: <input type="Date" name="my_date">
+         </div>
+         <div>
+            Age: <input type="number" name="my_age">
+         </div>
+         <div>
+            <input type="submit" value="Submit Now">
+         </div>
+         <div>
+            Accept: <input type="checkbox" name="accept">
+         </div>
+         <div>
+            Male: <input type="radio" name="my_gender">
+            Female: <input type="radio" name="my_gender">
+         </div>
+         <div>
+            <input type="reset" value="Reset Now">
+         </div>
+         <div>
+            Write Your Review:<textarea name="text_area" cols="50" rows="30"></textarea>
+         </div>
+         <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+               <option value="bmw">BMW</option>
+               <option value="audi">Audi</option>
+               <option value="mercedes">Benz</option>
+               <option value="porsche">Porsche</option>
+            </select>
+         </div>
+      </form>
    </body>
 </html>
